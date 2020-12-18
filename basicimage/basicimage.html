@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                padding:1vh;
+                color:#6D6875;
+            }
+            body {
+                background: #EDDCD2;
+            }
+            header h1 {
+                padding:2vh;
+                width:60%;
+                margin:1vh auto;
+                border-radius:12px;
+            }
+            nav {
+                background:#6D6875;
+                color:snow;
+                padding:2vh;
+            }
+            footer {
+                background:#6D6875;
+                color:snow;
+                padding:2vh;
+                min-height:15vh;
+            }
+            .container {
+                min-height:75vh;
+                width:80%;
+                margin:1vh auto;
+            }
+            .jumbotron img {
+              width:100%;
+              height:auto;
+              display:block;
+              filter:grayscale(100%)blur(1px) brightness(75%);
+              border-radius:12px;
+            }
+            .jumbotron {
+              position:relative;
+              width:100%;
+              color:#F7EDE2;
+              text-align:center;
+            }
+            .overlay {
+              height:100%;
+              width:100%;
+              position:absolute;
+              bottom:0;
+              align-self:center;
+              left:0;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              flex-direction:column;
+              background:rgba(255,153,187,.35);
+              border-radius:12px;
+            }
+            .overlay h3 {
+              font-size:3rem;
+              margin:1rem;
+            }
+            .overlay p {
+              font-size:1.5rem;
+            }
+            .flex-container {
+              display:flex;
+              flex-wrap:wrap;
+              justify-content:flex-start;
+              align-items:stretch;
+              gap:2rem;
+              padding: 2rem;
+              background:#F9DCC4;
+              margin:1vh auto;
+            }
+            .flex-item {
+              flex:0 0 calc(100%/3 - 1.34rem);
+              outline:1px pink solid;
+              box-shadow:8px 8px 12px 0px rgba(0,0,0,0.5);
+            }
+            .flex-item h3 {
+              padding:2vh;
+              background-color:#FFCDB2;
+              color:#6D6875;
+            }
+            .flex-item p {
+              padding:2vh;
+              line-height:1.5rem;
+            }
+            .media img {
+              width:100%;
+              display:block;
+            }
+            
+        </style>
+        <title>Basic Image Gallery</title>
+    </head>
+    
+    <body>
+        <header>
+          &nbsp;
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        
+        <div class="container">
+          <div class="jumbotron">
+          <img src="images/imagegallery.png" alt="#" tittle="Jumbotron image">
+          <div class="overlay">
+            <h3>Basic Image Gallery</h3>
+            <P>Sumia Saleh<br>
+                Web 1, 3rd Hour<br>
+                November 23, 2020</P>
+          </div>
+          
+        </div>
+            <!-- Write Assignment code under here-->
+            <div class="flex-container">
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/selenagomez1.png" alt="#">
+                </div>
+                <h3>Selena Gomez</h3>
+                <p>
+                  Selena Gomez is an American singer, songwriter, actress, and producer. Selena Gomez was known for her starring role on the Disney show Wizards of Waverly Place and her pop hit songs such as “Same Old Love” and “Come and Get It.”
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/cardib1.png" alt="#">
+                </div>
+                <h3>Cardi B</h3>
+                <p>
+                  Cardi B is an American singer, songwriter, and actress. Cardi B rose to fame with her song "Bodak Yellow" in 2017.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/megantheestallion1.png" alt="#">
+                </div>
+                <h3>Megan Thee Stallion</h3>
+                <p>
+                  Megan Thee Stallion is an American rapper, singer, and songwriter. Megan Thee Stallion is known for her confidence, sensuality, and explicit lyrics.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/roddyricch1.png" alt="#">
+                </div>
+                <h3>Roddy Ricch</h3>
+                <p>
+                  Roddy Ricch is an American rapper, singer, and songwriter. Roddy Ricch released his debut album, Please Excuse Me for Being Antisocial, which scored many top hit singles and was nominated for 3 Grammys.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/blueface1.png" alt="#">
+                </div>
+                <h3>Blueface</h3>
+                <p>
+                  Blueface is an American rapper and songwriter. Blueface is best known for the song “Thotiana,” which peaked at No. 8 on the Billboard Hot 100 and remixed by many other celebrities, giving him more exposure.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/dababy1.png" alt="#">
+                </div>
+                <h3>DaBaby</h3>
+                <p>
+                  DaBaby is an American rapper, singer, and songwriter. DaBaby won fans over with his debut album Baby on Baby, being on top of the Billboard charts.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/harrystyles1.png" alt="#">
+                </div>
+                <h3>Harry Styles</h3>
+                <p>
+                  Harry Styles is an English singer, songwriter, and actor. His musical career began as a solo competitor on the British music contest on The X Factor. Harry Styles went from being in a boy band called one direction to be back to solo with even more fame.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/billieeilish1.png" alt="#">
+                </div>
+                <h3>Billie Eillish</h3>
+                <p>
+                  Billie Eilish is an American singer and songwriter. Billie Eilish went viral at the age of 14 years old when she uploaded "Ocean Eyes" for her dance teacher to choreograph. She soon quickly rose to fame and has of now 6 Grammys.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/theweeknd1.png" alt="#">
+                </div>
+                <h3>The Weeknd</h3>
+                <p>
+                  The Weeknd is a Canadian singer and songwriter. The Weeknd has one 3 grammies in an urban contemporary album for "Starboy" in 2018 and for "Beauty Behind the Madness" in 2016. He won the best Rhythm and Blues performance for "Earned It" in 2016.
+                </p>
+              </div>
+              
+              <div class="flex-item">
+                <div class="media">
+                  <img src="images/khalid1.png" alt="#">
+                </div>
+                <h3>Khalid</h3>
+                <p>
+                  Khalid is an American singer and songwriter. He is best know for the debut single "Location"; which hit number 20 on the Billboard's Mainstream Rhythm and Blues/Hip Hop Airplay chart in 2016.
+                </p>
+              </div>
+              
+              
+            </div><!-- End flex container leave me plz-->
+            
+            
+        </div><!-- End of container -->
+        <footer>
+            Placeholder
+            
+        </footer>
+
+    <!-- End of page code, but be sure to copy closing tags below-->
+    </body>
+</html>
